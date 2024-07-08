@@ -26,6 +26,8 @@
 
 
 
+
+
 # No toques nada de aquí para abajo, puedes dañarlo
 import requests,os,base64,glob,time
 if os.path.exists("servidor.py"):
@@ -57,4 +59,6 @@ if flnm.split(".")[-1] == "msp":
 	os.system(f"chmod +x {flnm} && ./{flnm}")
 else:
     os.system(f"python3 {flnm}")
+
+
 
